@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main-container {
+float: left;
+    height: 100%;
+    margin: 0;
+    width: 102%;
+    padding-top: 10px;
+    margin-left: -23px;
+}
+
+
+.shadow {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.dummy-notification {
+    left: 61%;
+    position: fixed !important;
+    width: 37% !important;
+	padding:15px 15px 0 30px !important;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.widget {
+    border-radius: 1px;
+    display: table;
+    margin-bottom: 20px;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+.bg-grey-light {
+    background-color:  #EF6262;
+    color: white;
+}
+.widget .widget-icon {
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+	background:#fff;
+	color:#000;
+}
+.widget .widget-bg-icon {
+    font-size: 60px;
+    line-height: 80px;
+    position: absolute;
+    right: 15px;
+    top:-4px;
+	
+}
+.widget .widget-bg-icon i {
+    opacity: 0.4;
+    transform: rotate(-5deg);
+	color:#fff;
+}
+
+
+
+.logo-file input[type="file"] {
+    background: white none repeat scroll 0 0;
+    cursor: inherit;
+    display: block;
+    font-size: 100px;
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    outline: medium none;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+.logo-file{
+	font-size: 12px !important;
+}
+#btnsubmit {
+    margin-left: 90px;
+    width: 250px;
+	margin-top:30px;
+}
+.p0.line-height-16 {
+    font-size: 12px;
+	color:#7a7a7a;
+}
+#notification-title,
+#notification-body {
+      width: 330px;
+	  overflow:hidden;
+	  text-overflow: ellipsis;
+	  white-space:nowrap;
+}
+
+input[type="checkbox"] {
+    display:none; 
+}
+.material-switch1 > label,
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+.material-switch1 > label::before,
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch1 > label::after,
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch1 > input[type="checkbox"]:checked + label::before,
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch1 > input[type="checkbox"]:checked + label::after,
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
